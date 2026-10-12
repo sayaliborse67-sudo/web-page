@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join FitZone Gym for strength training, cardio, personal training and fitness programs.">
+    <title>FitZone Gym | Transform Your Life</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">FIT<span>ZONE</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation" aria-expanded="false"
+                aria-controls="navLinks">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#plans">Membership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#plans" class="btn nav-button">Join Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <p class="eyebrow">WELCOME TO FITZONE GYM</p>
+                <h1>BUILD YOUR BODY.<br>
+                    <span>BUILD YOUR FUTURE.</span>
+                </h1>
+                <p class="hero-description">
+                    Get stronger, feel healthier, and reach your
+                    fitness goals with the right training and support.
+                </p>
+                <a href="#plans" class="btn">Explore Membership</a>
+            </div>
+        </section>
+
+        <section class="section container" id="about">
+            <div class="about-grid">
+                <img
+                    class="about-image"
+                    src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=80"
+                    alt="Modern gym and workout equipment"
+                    loading="lazy">
+
+                <div>
+                    <p class="eyebrow">ABOUT OUR GYM</p>
+                    <h2>Stronger Every Day</h2>
+                    <p>
+                        FitZone is a fitness community for beginners
+                        and experienced athletes. Train at your own
+                        pace with modern equipment and supportive coaches.
+                    </p>
+                    <p>
+                        Improve your strength, stamina, flexibility,
+                        and confidence with a workout routine that
+                        works for you.
+                    </p>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT WE OFFER</p>
+                    <h2>Our Fitness Programs</h2>
+                    <p>Find a training style that fits your goals.</p>
+                </div>
+
+                <div class="grid">
+                    <article class="card">
+                        <img
+                            src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80"
+                            alt="Strength training with weights"
+                            loading="lazy">
+                        <div class="card-content">
+                            <h3>Weight Training</h3>
+                            <p>Build strength and muscle with resistance exercises.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img
+                            src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=700&q=80"
+                            alt="Cardio workout"
+                            loading="lazy">
+                        <div class="card-content">
+                            <h3>Cardio Training</h3>
+                            <p>Improve endurance and cardiovascular fitness.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img
+                            src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=700&q=80"
+                            alt="Fitness coaching and training"
+                            loading="lazy">
+                        <div class="card-content">
+                            <h3>Personal Training</h3>
+                            <p>Get individual guidance for your fitness journey.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="plans">
+            <div class="section-heading">
+                <p class="eyebrow">SIMPLE MEMBERSHIP OPTIONS</p>
+                <h2>Choose Your Plan</h2>
+                <p>Example prices — customize them for your gym.</p>
+            </div>
+
+            <div class="grid">
+                <article class="plan">
+                    <h3>Basic</h3>
+                    <p class="price">₹999 <small>/ month</small></p>
+                    <ul>
+                        <li>Gym equipment access</li>
+                        <li>General workout area</li>
+                        <li>Locker facilities</li>
+                    </ul>
+                    <a href="#contact" class="btn">Get Started</a>
+                </article>
+
+                <article class="plan featured">
+                    <span class="popular">POPULAR</span>
+                    <h3>Premium</h3>
+                    <p class="price">₹1,999 <small>/ month</small></p>
+                    <ul>
+                        <li>All Basic benefits</li>
+                        <li>Group fitness sessions</li>
+                        <li>Trainer consultation</li>
+                    </ul>
+                    <a href="#contact" class="btn">Get Started</a>
+                </article>
+
+                <article class="plan">
+                    <h3>Elite</h3>
+                    <p class="price">₹2,999 <small>/ month</small></p>
+                    <ul>
+                        <li>All Premium benefits</li>
+                        <li>Personal training</li>
+                        <li>Customized workout plan</li>
+                    </ul>
+                    <a href="#contact" class="btn">Get Started</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="container contact-inner">
+                <div class="section-heading">
+                    <p class="eyebrow">START YOUR JOURNEY</p>
+                    <h2>Contact FitZone</h2>
+                    <p>Send an inquiry about membership or training.</p>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <label for="name">Full name</label>
+                    <input id="name" name="name" type="text"
+                        placeholder="Enter your name" required>
+
+                    <label for="email">Email address</label>
+                    <input id="email" name="email" type="email"
+                        placeholder="Enter your email" required>
+
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message"
+                        placeholder="Tell us what you are looking for"
+                        rows="5" required></textarea>
+
+                    <button class="btn" type="submit">Send Inquiry</button>
+                    <p id="formMessage" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> FitZone Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
